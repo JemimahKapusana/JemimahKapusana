@@ -5,7 +5,8 @@
 <p align="center">
   <img src="assets/about-me.svg" alt="About Me" width="100%">
 </p>
-I'm Jemimah, and I build intelligent systems across **machine learning, deep learning and generative AI**.
+
+My name is Jemimah. I build intelligent systems across **machine learning, deep learning and generative AI**.
 
 I don't just want to train models. I want to understand the **data**, choose the **right approach**, evaluate what I've built, and turn it into **software people can actually use**.
 

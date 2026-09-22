@@ -1,0 +1,30 @@
+<svg width="900" height="90" viewBox="0 0 900 90" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff4fd8"/>
+      <stop offset="50%" stop-color="#c850ff"/>
+      <stop offset="100%" stop-color="#7b61ff"/>
+    </linearGradient>
+  </defs>
+
+  <text
+    x="450"
+    y="48"
+    text-anchor="middle"
+    font-family="Arial, sans-serif"
+    font-size="28"
+    font-weight="700"
+    letter-spacing="8"
+    fill="url(#gradient)">
+    ABOUT ME
+  </text>
+
+  <rect
+    x="250"
+    y="67"
+    width="400"
+    height="2"
+    rx="1"
+    fill="url(#gradient)"
+  />
+</svg>

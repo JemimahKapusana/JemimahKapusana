@@ -1,0 +1,49 @@
+<svg width="320" height="90" viewBox="0 0 320 90" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff4fd8"/>
+      <stop offset="50%" stop-color="#c850ff"/>
+      <stop offset="100%" stop-color="#7b61ff"/>
+    </linearGradient>
+
+    <filter id="glow" x="-30%" y="-50%" width="160%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Neon border -->
+  <rect
+    x="8"
+    y="8"
+    width="304"
+    height="74"
+    rx="22"
+    fill="#111018"
+    stroke="url(#border)"
+    stroke-width="3"
+    filter="url(#glow)"
+  />
+
+  <!-- Envelope -->
+  <g transform="translate(65 32)" stroke="#ff75df" stroke-width="2.5" fill="none">
+    <rect x="0" y="0" width="30" height="23" rx="3"/>
+    <path d="M2 3 L15 13 L28 3"/>
+  </g>
+
+  <!-- Text -->
+  <text
+    x="190"
+    y="54"
+    text-anchor="middle"
+    font-family="Arial, sans-serif"
+    font-size="18"
+    font-weight="700"
+    letter-spacing="4"
+    fill="#ffffff">
+    EMAIL ME
+  </text>
+</svg>

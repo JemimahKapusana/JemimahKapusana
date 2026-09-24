@@ -14,8 +14,3 @@ I'm a big **"but why?"** person. Why this model? Why this feature? Why this arch
 
 I care about building AI that is **useful, well engineered and actually makes sense**.
 
-<p align="center">
-  <a href="mailto:jemykaps@gmail.com">
-    <img src="https://img.shields.io/badge/EMAIL_ME-FF4FD8?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Me">
-  </a>
-</p>
